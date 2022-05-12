@@ -2,7 +2,6 @@ html {
   font-family: sans-serif;
   background-color: #000;
   color: rgb(255, 255, 255);
-  padding-top: 10px;
 }
 
 .body {
@@ -10,7 +9,7 @@ html {
   min-width: 320px;
   margin: 0 auto;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .content {
@@ -86,12 +85,17 @@ html {
 
 .lastResult {
   color: #ff0000;
-  font-size: 30px;
+  font-size: 28px;
+  margin: 10px 0 0 0;
+}
+
+.lowOrHi {
   margin: 10px 0 0 0;
 }
 
 .resetButton {
   width: 240px;
+  margin: 20px 0 0 0;
   font-weight: bold;
   border: none;
   cursor: pointer;
