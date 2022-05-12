@@ -51,6 +51,7 @@ function checkGuess() {
     // но выведет сообщение с текстом "!!!Игра окончена!!!".
   } else if (guessCount === 8) {
     lastResult.textContent = "Спробы скончыліся!";
+    lowOrHi.textContent = "";
     setGameOver();
     // Этот код запускается только в том случае,
     // если ни один из двух других тестов не возвращает true
@@ -95,10 +96,7 @@ function setGameOver() {
   // Следующие три строки генерируют новый элемент <button>,
   // устанавливают его текстовую метку «Угадать ещё раз»
   // и добавляют её к нижней части нашего HTML.
-  // resetButton = document.createElement("button");
   resetButton.classList.add("resetButtonVisible");
-  // resetButton.textContent = "Адгадаць другі лік";
-  // document.body.appendChild(resetButton);
   // Последняя строка устанавливает обработчик событий на нашей новой кнопке,
   // так что при нажатии на неё запускается функция resetGame()
   resetButton.addEventListener("click", resetGame);
