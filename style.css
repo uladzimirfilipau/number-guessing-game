@@ -14,11 +14,12 @@ html {
 }
 
 .content {
-  min-height: 750px;
+  min-height: 580px;
 }
 
 .title {
   margin: 0;
+  font-size: 30px;
 }
 
 .textContainer {
@@ -31,27 +32,27 @@ html {
 }
 
 .form {
-  margin-top: 50px;
+  margin-top: 20px;
   display: grid;
   justify-items: center;
 }
 
 .guessLabel {
   font-weight: bold;
-  font-size: x-large;
+  font-size: 22px;
 }
 
 .guessField {
-  margin-top: 25px;
-  width: 140px;
-  min-height: 100px;
+  margin-top: 20px;
+  width: 130px;
+  min-height: 60px;
   font-weight: bold;
-  font-size: 5em;
+  font-size: 70px;
   text-align: center;
 }
 
 .guessSubmit {
-  margin-top: 25px;
+  margin-top: 20px;
   width: 240px;
   font-weight: bold;
   border: none;
@@ -62,7 +63,7 @@ html {
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
   border-radius: 100px 100px 100px 100px / 200% 200%;
 }
 
@@ -80,7 +81,7 @@ html {
 .lastResult {
   color: #ff0000;
   font-size: 25px;
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 
 .resetButton {
