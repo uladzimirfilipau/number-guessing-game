@@ -73,10 +73,9 @@ html {
 }
 
 .resultParas {
-  margin-top: 20px;
   display: grid;
   justify-items: center;
-  margin: 0;
+  margin: 5px 0 0 0;
 }
 
 .guesses {
@@ -95,7 +94,7 @@ html {
 
 .resetButton {
   width: 240px;
-  margin: 20px 0 0 0;
+  margin: 15px 0 0 0;
   font-weight: bold;
   border: none;
   cursor: pointer;
