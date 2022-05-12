@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="be">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>АДГАДАЙ ЛІК</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="body">
+    <main class="content">
+      <h1 class="title">АДГАДАЙ ЛІК</h1>
+
+      <div class="textContainer">
+        <p class="textDescription">Я абраў выпадковы лік ад 1 да 100.</p>
+        <p class="textDescription">Паспрабуйце адгадаць яго за 8 спробаў.</p>
+        <p class="textDescription">
+          Я напішу, калі лік будзе больш, менш альбо адгаданы.
+        </p>
+      </div>
+
+      <div class="form">
+        <label for="guessField" class="guessLabel">Адгадаць лік</label>
+        <input type="text" id="guessField" class="guessField" />
+        <button type="submit" class="guessSubmit">Праверыць</button>
+      </div>
+
+      <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+        <button type="submit" class="resetButton">Адгадаць другі лік</button>
+      </div>
+    </main>
+
+    <footer class="footer">© 2022. ВОВА Ф.</footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
